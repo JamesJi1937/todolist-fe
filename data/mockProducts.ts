@@ -1,0 +1,68 @@
+import { Product } from '../store/cartStore';
+
+export const mockProducts: Product[] = [
+  {
+    id: '1',
+    name: 'Wireless Headphones Pro',
+    price: 199.99,
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop',
+    description: 'Premium noise-canceling wireless headphones with 30-hour battery life.',
+    category: 'Electronics',
+  },
+  {
+    id: '2',
+    name: 'Smart Watch Series 5',
+    price: 299.99,
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop',
+    description: 'Feature-packed smartwatch with health monitoring and GPS.',
+    category: 'Electronics',
+  },
+  {
+    id: '3',
+    name: 'Premium Leather Backpack',
+    price: 89.99,
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop',
+    description: 'Stylish and durable leather backpack with multiple compartments.',
+    category: 'Accessories',
+  },
+  {
+    id: '4',
+    name: 'Organic Cotton T-Shirt',
+    price: 24.99,
+    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop',
+    description: 'Comfortable organic cotton t-shirt in various colors.',
+    category: 'Clothing',
+  },
+  {
+    id: '5',
+    name: 'Stainless Steel Water Bottle',
+    price: 34.99,
+    image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=400&fit=crop',
+    description: 'Insulated stainless steel water bottle that keeps drinks cold for 24 hours.',
+    category: 'Home & Kitchen',
+  },
+  {
+    id: '6',
+    name: 'Wireless Charging Pad',
+    price: 49.99,
+    image: 'https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400&h=400&fit=crop',
+    description: 'Fast wireless charging pad compatible with all Qi-enabled devices.',
+    category: 'Electronics',
+  },
+  {
+    id: '7',
+    name: 'Designer Sunglasses',
+    price: 149.99,
+    image: 'https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?w=400&h=400&fit=crop',
+    description: 'Trendy designer sunglasses with UV protection.',
+    category: 'Accessories',
+  },
+  {
+    id: '8',
+    name: 'Yoga Mat Premium',
+    price: 59.99,
+    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=400&fit=crop',
+    description: 'Non-slip yoga mat with extra cushioning for comfort.',
+    category: 'Fitness',
+  },
+];
